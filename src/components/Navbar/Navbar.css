@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.nav_left img {
+  width: 20%;
+}
+
+.nav_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+.notification-container {
+  position: relative;
+}
+
+.notification-container .badge {
+  position: absolute;
+  background-color: rgb(53, 187, 53);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  right: 1px;
+}
